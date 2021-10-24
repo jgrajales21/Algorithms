@@ -8,6 +8,11 @@
  *   -1,  if there is no such i.
  *
  * Pre-conditions:  A[0] <= ... <= A[n-1] and size of A is n.
+ *
+ * Cost is log(n) b/c array is contnously split in half; while loop does not traverse 
+ * every element in array.
+ *
+ * Space complexity is constant no new sizeable data structures created.
  */
 int bin_search(int A[], int n, int x) {
 
