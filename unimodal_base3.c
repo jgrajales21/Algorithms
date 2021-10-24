@@ -9,6 +9,8 @@
  * - There is j such that
  *     A[0] < A[1] < ... < A[j-1] < A[j] > A[j+1] > ... A[n-1].
  *   It is possible that j=0 or j=n-1.
+ * 
+ * Cost is log(n) (base 3) b/c while length does not traverse full length of the array. 
  */
 
 int unimodal_search(int A[], int x) {
