@@ -4,8 +4,8 @@
 
 int uni(int A[], int a, int b) {
 
-    int hi = b; // upper bound
-    int lo = a; // lower bound
+    int hi = b; 
+    int lo = a;
     int m = lo + (hi-lo)/2;
 
     if (lo == hi -1) {return 0;}
